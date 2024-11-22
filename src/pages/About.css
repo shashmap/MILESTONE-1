@@ -1,0 +1,104 @@
+/* Center Our Story and Contact Us sections */
+.bio, .contact {
+  text-align: center; /* Center-align content of these sections */
+  margin: 20px 0;
+}
+
+.bio h2, .contact h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #d38510; /* Ensure consistent color for headings */
+}
+
+.bio p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 10px auto;
+  max-width: 600px; /* Restrict width for readability */
+}
+
+/* Center the About Us title */
+.about-header h1 {
+  text-align: center; /* Center-align About Us title */
+  color:  #d38510; /* Match color with other section headings */
+  font-size: 2rem; /* Ensure font size consistency */
+  margin-bottom: 20px;
+}
+
+/* Styling the paragraph inside the "Welcome to your go-to bakery..." section */
+.intro-text {
+  display: inline-block; /* Makes the box adjust to its content */
+  text-align: center; /* Center-aligns the text inside the box */
+  padding: 20px; /* Adds space inside the box */
+  margin: 20px auto; /* Centers the box horizontally and adds spacing */
+  max-width: 600px; /* Restricts the width for better readability */
+  border: 2px solid #ff6f61; /* Adds a border with the color to match the theme */
+  border-radius: 10px; /* Rounds the edges of the box */
+  background-color: #fffaf0; /* Adds a light background color for better appearance */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a 3D effect */
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+
+/* Center the Contact Form */
+.contact-form {
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack form elements vertically */
+  align-items: center; /* Center-align form elements horizontally */
+  max-width: 400px;
+  margin: 0 auto; /* Center the form on the page */
+}
+
+.contact-form .form-group {
+  width: 100%; /* Ensure inputs are full-width within the form */
+  margin-bottom: 15px;
+}
+
+.contact-form label {
+  display: block; /* Ensure labels are above inputs */
+  text-align: left; /* Keep labels aligned left */
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%; /* Make inputs and textarea full-width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.submit-button {
+  display: block;
+  margin: 20px auto;
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Center footer links and copyright */
+.about-footer .socials {
+  display: flex;
+  justify-content: center; /* Center-align Facebook and Instagram links */
+  margin-bottom: 10px;
+}
+
+.about-footer .socials a {
+  margin: 0 10px; /* Space between links */
+  text-decoration: none;
+  color: #140908; /* Optional: Set link color */
+  font-weight: bold;
+}
+
+.about-footer p {
+  text-align: center; /* Center-align copyright text */
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #151210;
+}

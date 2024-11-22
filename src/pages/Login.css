@@ -1,0 +1,94 @@
+/* General styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8e1; /* Cream background */
+}
+
+/* Login container */
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Title and subtitle */
+h2 {
+  margin-bottom: 10px;
+  color: #d2691e; /* Chocolate color */
+}
+
+.subtitle {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Form group */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+/* Login button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f7c08a; /* Light orange */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #e69a5d; /* Darker orange */
+}
+
+/* Signup link */
+.signup-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

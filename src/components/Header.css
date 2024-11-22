@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8b400;
+    color: #fff;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation ul li {
+    display: inline;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navigation ul li a:hover {
+    color: #333;
+  }
+  
